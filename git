@@ -4,3 +4,10 @@ git remote add origin <here is where you insert the ssh link>
 git push -u origin master
 
 git remote -v 
+
+git status
+git log
+git add .
+
+When you make a small change and a new commit
+
