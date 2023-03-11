@@ -1,0 +1,1 @@
+groff -ms <filename>.ms -T pdf > file.pdf
