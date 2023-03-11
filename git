@@ -1,5 +1,5 @@
 git init
-git commit -m "fitst commit"
+git commit -m "first commit"
 git remote add origin <here is where you insert the ssh link>
 git push -u origin master
 
@@ -9,5 +9,8 @@ git status
 git log
 git add .
 
-When you make a small change and a new commit
+When you make a small change and a new commit,
+git add <file> 
+is appropriate here too
+
 
