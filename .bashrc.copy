@@ -1,0 +1,35 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Keep alias list short!
+alias ls='ls --color=auto'
+alias cd='cd '
+alias cl=clear
+alias py='~/python'
+alias p=python
+alias n=nvim
+alias z=zathura
+alias b='brave &'
+alias d='~/dwm'
+alias cp='~/cpp'
+alias re='~/cpp/renderEngine'
+alias ge='~/cpp/gfxEngine'
+alias ha='~/cpp/towersHanoi'
+alias pe='~/cpp/perm'
+alias fa='~/cpp/factorial'
+alias rs='~/cpp/rSum'
+
+PS1='[\u@\h \W]\$ '
+
+# Command search path (appending)
+PATH=$PATH":/home/test/bash_scripts"
+BPATH="/home/test/input_files/adventure"
+
+# Options
+set -o vi
+
+
