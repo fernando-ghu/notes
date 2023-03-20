@@ -13,5 +13,8 @@ When you make a small change and a new commit,
 git add <file> 
 is appropriate here too
 
-git reset --merge
-git checkout <hash>
+Packer
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+

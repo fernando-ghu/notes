@@ -1,1 +1,3 @@
-groff -ms <filename>.ms -T pdf > file.pdf
+groff -ms <filename>.ms -T pdf > <filename>.pdf
+eqn <filename>.ms -Tpdf | groff -ms -Tpdf > <filename>.pdf
+
