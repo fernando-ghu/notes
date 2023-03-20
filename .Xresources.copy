@@ -1,0 +1,7 @@
+UXTerm*eightBitInput: false
+UXTerm*metaSendsEscape: true
+UXTerm*reverseVideo: true
+UXTerm*bellIsUrgent: true
+
+*.font: monospace:size=30
+
