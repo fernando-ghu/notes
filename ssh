@@ -1,0 +1,12 @@
+ssh-keygen -t ed25519 -C temp@example.com
+ssh-keygen -t rsa -C temp@example.com
+
+eval "$(ssh-agent -s)"
+touch ~/.ssh/config
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+
+ssh-add ~/.ssh/id_rsa
+
+ssh -T git@github.com

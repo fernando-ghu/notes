@@ -1,0 +1,18 @@
+local opts = { noremap = true, silent = true }
+local keymap = vim.api.nvim_set_keymap
+
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
+keymap("i", "jk", "<ESC>", opts)
+keymap("i", "kj", "<ESC>", opts)
+
+local options = {
+	number = true,
+	hlsearch = true,
+	shiftwidth = 2
+}
+
+for k, v in pairs(options) do
+	vim.opt[k] = v
+end
